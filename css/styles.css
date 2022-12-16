@@ -2,7 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-
+a {
+  text-decoration: none;
+}
 .logo {
   font-size: 26px;
   font-family: "Raleway", sans-serif;
@@ -12,22 +14,27 @@ body {
 .logo span {
   color: #2196f3;
 }
-.header-item {
+.header-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
 }
-.header-item-active {
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.header-link-active {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
   text-decoration: none;
@@ -37,16 +44,19 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
 }
 .footer-contact {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: rgba(255, 255, 255, 0.6);
@@ -54,9 +64,42 @@ body {
 .footer-address {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.nav-button {
+  border: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nav-button:hover,
+.nav-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.img-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.img-description {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
