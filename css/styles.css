@@ -1,6 +1,12 @@
+:root {
+  --primary-black: #212121;
+  --secondary-blue: #2196f3;
+  --third-grey: #757575;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--primary-color);
 }
 a {
   text-decoration: none;
@@ -12,7 +18,7 @@ a {
   text-decoration: none;
 }
 .logo span {
-  color: #2196f3;
+  color: var(--secondary-blue);
 }
 .header-link {
   font-family: "Roboto";
@@ -21,12 +27,12 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
   text-decoration: none;
+  color: var(--primary-black);
 }
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--secondary-blue);
 }
 
 .header-link-active {
@@ -36,7 +42,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--secondary-blue);
   text-decoration: none;
 }
 .header-contact {
@@ -46,11 +52,11 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--third-grey);
 }
 .header-contact:hover,
 .header-contact:focus {
-  color: #2196f3;
+  color: var(--secondary-blue);
 }
 .footer-contact {
   font-family: "Roboto";
@@ -77,11 +83,10 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .nav-button:hover,
 .nav-button:focus {
-  background-color: #2196f3;
+  background-color: var(--secondary-blue);
   color: #ffffff;
   cursor: pointer;
 }
@@ -92,7 +97,6 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
 }
 .img-description {
   font-family: "Roboto";
