@@ -1,0 +1,135 @@
+:root {
+  --primary-black: #212121;
+  --secondary-blue: #2196f3;
+  --third-grey: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+.logo span {
+  color: var(--secondary-blue);
+}
+.header-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-black);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--secondary-blue);
+}
+
+.header-link-active {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-blue);
+  text-decoration: none;
+}
+.header-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-grey);
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--secondary-blue);
+}
+.footer-contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
+.footer-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.nav-button {
+  border: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.nav-button:hover,
+.nav-button:focus {
+  background-color: var(--secondary-blue);
+  color: #ffffff;
+  cursor: pointer;
+}
+.img-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.img-description {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.page-header {
+	border: 1px solid black;
+	width: 1600px;
+	height: 80px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	margin-left: 215px;
+	border: 1px solid black;
+}
+.header-link-box {
+	display: inline-flex;
+	width: 254px;
+	border: 1px solid black;
+	justify-content: space-between;
+}
+.header-link-box li{
+	display: inline-flex;
+}
+.header-contact-box {
+	margin-right: 227px;
+	border: 1px solid black;
+}
+.header-contact-box li {
+	display: inline-flex;
+}
