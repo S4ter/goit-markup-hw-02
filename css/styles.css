@@ -105,29 +105,38 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.page-header {
+.header-container {
 	border: 1px solid black;
-	width: 1600px;
-	height: 80px;
-	display: inline-flex;
+  width: 100%;
+	display: flex;
+  flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.navigator-container {
+  display: flex;
+	align-items: center;
+  gap: 1rem;
+}
+
 .logo {
-	margin-left: 215px;
+  display:flex;
+  align-items: center;
 	border: 1px solid black;
 }
-.header-link-box {
+.header-container-left {
+  margin-left: 10%;
 	display: inline-flex;
-	width: 254px;
 	border: 1px solid black;
 	justify-content: space-between;
 }
 .header-link-box li{
 	display: inline-flex;
 }
-.header-contact-box {
-	margin-right: 227px;
+.header-container-right {
+	margin-right: 10%;
 	border: 1px solid black;
 }
 .header-contact-box li {
