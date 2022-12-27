@@ -13,7 +13,15 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 1200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.container-portfolio {
+	width: 1600px;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
 }
 .logo {
   font-size: 26px;
@@ -85,12 +93,19 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 .nav-button:hover,
 .nav-button:focus {
   background-color: var(--secondary-blue);
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .img-title {
   font-family: "Roboto";
@@ -128,7 +143,7 @@ a {
 .navigator-container {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 47px;
   list-style: none;
   margin-left: 93px;
   padding: 0;
@@ -177,6 +192,10 @@ a {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
+.main-header-box button:hover {
+	cursor:pointer;
+}
 /* main content */
 .first-section {
   width: 1170px;
@@ -220,11 +239,13 @@ a {
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .third-section {
-  width: 1170px;
-  margin-left: 215px;
   padding-left: 0;
+ width: 1600px;
+ background-color: #F5F4FA;
+ padding-bottom: 94px;
 }
 .third-section h2 {
   font-weight: 700;
@@ -286,4 +307,30 @@ a {
 }
 .footer-information a {
   color: rgba(255, 255, 255, 0.6);
+}
+.container-images {
+width: 1200px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+margin-top: 50px;
+padding-bottom: 94px;
+}
+.container-images figure {
+	margin: 0;
+	background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+.container-images figcaption{
+	padding-left: 24px;
+}
+.container-images .img-title{
+	padding-bottom: 4px;
+	padding-top: 20px;
+	margin: 0;
+}
+.container-images .img-description{
+	padding-bottom: 20px;
+	margin: 0;
 }
