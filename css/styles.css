@@ -284,6 +284,7 @@ a {
   background-color: var(--background);
   display: flex;
 justify-content: flex-start;
+padding: 50px 100px;
 }
 .footer-container a {
   color: #ffffff;
@@ -291,7 +292,6 @@ justify-content: flex-start;
 .footer-content {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
 }
 .footer-information {
   list-style: none;
